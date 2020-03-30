@@ -26,7 +26,7 @@ public class EplioTests {
         chromeDriver = new ChromeDriver();
        ChromeOptions options = new ChromeOptions();
        options.addArguments("headless");
-        options.addArguments("start-maximized")
+        options.addArguments("start-maximized");
         chromeDriver.get(EPLIO_URL);
     }
 
