@@ -89,6 +89,7 @@
             </configuration>
         </plugin>
     </plugins>
+                 </build>
                  
                  <profiles>
         <profile>
@@ -102,6 +103,5 @@
             </activation>
         </profile>
     </profiles>
-</build>
 
 </project>
