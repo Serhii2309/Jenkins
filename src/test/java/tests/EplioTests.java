@@ -22,7 +22,7 @@ public class EplioTests {
 
     @BeforeMethod
     public void setUp() {
-        WebDriverManager.chromedriver().version("79.0.3945.36").setup();
+        WebDriverManager.chromedriver().setup();
         chromeDriver = new ChromeDriver();
         chromeDriver.manage().window().maximize();
         chromeDriver.get(EPLIO_URL);
